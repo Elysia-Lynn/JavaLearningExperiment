@@ -24,14 +24,12 @@ public class test11 {
             break;
         }
         for(int i=0;i<=m;i++){
-            if((n-4*i)%2==0){
                 int j=(n-4*i)/2;
                 if(i+j==m)
                 System.out.println("鸡的数量为"+j+"，兔的数量为"+i);
                 else
                     continue;
                 break;
-            }
         }
     }
 }
