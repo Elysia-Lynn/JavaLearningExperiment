@@ -18,7 +18,7 @@ class Side{
         this.wolf=wolf;
     }
     public boolean isSafe(){
-        if(sheep>wolf)
+        if(sheep>wolf||sheep==0)
             return true;
         else
             return false;
